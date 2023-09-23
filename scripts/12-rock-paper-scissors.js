@@ -139,3 +139,12 @@ computerMove = 'scissors';
 
 return computerMove;
 }
+
+function autoPlay2() {
+    const apb = document.querySelector('.js-autoPlay-button')
+    if (apb.innerHTML === 'Stop Auto play') {
+        apb.innerHTML = 'Auto play';
+    } else {
+        apb.innerHTML = 'Stop Auto play';
+    }
+}
